@@ -6,6 +6,8 @@
 export WLR_NO_HARDWARE_CURSORS=1
 # Set wlroots renderer to Vulkan to avoid flickering
 export WLR_RENDERER=vulkan
+# sway -D is deprecated, replace with an environment variable
+export WLR_SCENE_DISABLE_DIRECT_SCANOUT=1
 # General wayland environment variables
 export XDG_SESSION_TYPE=wayland
 export QT_QPA_PLATFORM=wayland
@@ -20,3 +22,4 @@ export __GL_VRR_ALLOWED=0
 export __GLX_VENDOR_LIBRARY_NAME=nvidia
 # Xwayland compatibility
 export XWAYLAND_NO_GLAMOR=1
+
