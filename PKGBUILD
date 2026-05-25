@@ -4,7 +4,7 @@ pkgver=1.0.8
 pkgrel=1
 pkgdesc="Helper files to make swayfx a better experience for us poor NVIDIA users."
 arch=('any')
-url="https://github.com/Yulljie/swayfx-nvidia-yu"
+url="https://github.com/Yulljie/swayfx-nvidia"
 license=('MIT')
 depends=('swayfx-git' 'vulkan-validation-layers')
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver")
