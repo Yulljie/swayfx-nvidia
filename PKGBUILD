@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/Yulljie/swayfx-nvidia"
 license=('MIT')
 depends=('swayfx-git' 'vulkan-validation-layers')
-source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver")
+source=("$pkgname-$pkgver::git+$url.git")
 md5sums=('SKIP')
 
 package() {
